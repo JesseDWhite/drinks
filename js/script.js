@@ -9,4 +9,13 @@ $(document).ready(function () {
     else {
         $('#under-21').show()
     }
+    const receipt = $("form#user-receipt form#drinkMenu").submit(function (event) {
+        const beverage = parseInt($("#name-entry").val());
+        const date = parseInt($("#date-entry").val());
+        const address = parseInt($("#address-entry").val());
+
+        const beer = $("#beer").parseInt(val());
+        const wine = $("#wine").parseInt(val());
+        const nonAl = $("#non-al").parseInt(val());
+    })
 });
