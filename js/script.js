@@ -9,7 +9,7 @@ $(document).ready(function () {
     else {
         $('#under-21').show()
     }
-    const receipt = $("form#user-receipt form#drinkMenu").submit(function (event) {
+    const receipt = $("form#user-receipt").submit(function (event) {
         const beverage = parseInt($("#name-entry").val());
         const date = parseInt($("#date-entry").val());
         const address = parseInt($("#address-entry").val());
